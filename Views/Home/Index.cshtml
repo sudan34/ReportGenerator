@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+
+    <a href="/Invoice/GenerateInvoice" class="btn btn-info" target="_blank">Generate Invoice</a>
+    <!-- Add the info button -->
+    <a asp-controller="Report" asp-action="GenerateReport" class="btn btn-success" target="_blank">GenerateReport</a>
+</div>
